@@ -1,5 +1,5 @@
 name = input("Enter file:")
-if len(name) < 1 : name = "mbox-short.txt"
+if len(name) < 1 : name = "data/mbox-short.txt"
 handle = open(name)
 
 emails = dict()
